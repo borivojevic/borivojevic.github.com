@@ -1,0 +1,70 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+body {
+	background: url(../images/escheresque.png) repeat 0 0 #FFF;
+	font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+#wrapper {
+	background: white;
+	width:90%;
+	margin: 2.5% auto;
+	max-width:1440px;
+	-webkit-box-shadow:0 0 12px rgba(0,0,0,0.3);
+	-moz-box-shadow:0 0 12px rgba(0,0,0,0.3);
+	box-shadow:0 0 12px rgba(0,0,0,0.3)
+}
+#title {
+	text-align: center;
+	padding: 180px 0 60px 0;
+}
+#social {
+	text-align: center;
+	padding: 20px 0 100px 0;
+}
+#contact {
+	text-align: center;
+	padding: 20px 0 120px 0;
+}
+.tall {
+	min-height: 150px;
+}
+#mirkoborivojevic {
+	font-size: 60px;
+	line-height: 1.2em;
+	text-transform: uppercase;
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}

@@ -1,0 +1,18 @@
+# Jekyll settings
+pygments:   true
+markdown:   rdiscount
+
+# Site settings
+sitename: Mirko Borivojevic
+tagline : Freelance Web Development
+email   : mirko.borivojevic@gmail.com
+skype   : mirkoborivojevic
+social  :
+  facebook  : boirvojevic
+  github    : borivojevic
+  linkedin  : mirkoborivojevic
+  twitter   : borivojevic
+
+# Settings for Google Analytics: change UA-XXXXX-X to be your site's ID.
+analytics   :
+  google_tracking_id    : 'UA-34855255-1'
