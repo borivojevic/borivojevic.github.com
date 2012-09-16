@@ -1,6 +1,6 @@
 # Jekyll settings
-pygments:   true
 markdown:   rdiscount
+auto:       true
 
 # Site settings
 sitename: Mirko Borivojevic
