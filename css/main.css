@@ -112,25 +112,25 @@ body { font: 16px/30px 'Droid Serif', serif; -webkit-font-smoothing: antialiased
   height: 80px;
 }
 /* ==========================================================================
-   CONTENT
+   Article
    ========================================================================== */
-.content{
+article {
 	color: #525b60;
 }
-.content section{
+article section {
   margin: 40px 0;
 }
-.content section h6 {
+article section h6 {
     font: 24px/20px 'Droid Serif', serif;
   	float: none;
     border-bottom: 1px dashed #aaa;
     padding: 15px 0;
     margin: 20px 0;
 }
-.content section p {
+article section p {
   text-align: justify;
 }
-.content section p a {
+article section p a {
   color: inherit;
   font-weight: bold;
   text-decoration: underline;
