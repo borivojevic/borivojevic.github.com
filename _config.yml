@@ -1,3 +1,6 @@
+# Ruby Settings
+exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, gems]
+
 # Jekyll settings
 markdown:   rdiscount
 auto:       true
