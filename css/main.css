@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font: 16px/30px 'Droid Serif', serif;
+	font: 14px/30px 'Droid Serif', serif;
 	color: #444;
 	-webkit-font-smoothing: antialiased;
 	font-smooth: always;
@@ -20,8 +20,7 @@ h2 {
 }
 
 h6 {
-	font: 24px/20px 'Droid Serif', serif;
-	float: none;
+	font: 22px/26px 'Droid Serif', serif;
 	border-bottom: 1px dashed #aaa;
 	padding: 15px 0;
 	margin: 20px 0;
@@ -149,6 +148,7 @@ article section {
 }
 article section p {
 	text-align: justify;
+	margin-bottom: 24px;
 }
 article section p a {
 	color: inherit;
