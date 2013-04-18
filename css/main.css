@@ -20,7 +20,6 @@ div#container {
 
 div#header {
 	background-color: white;
-	color: #525B60;
 	text-align: center;
 	width: 100%;
 	position: fixed;
@@ -78,7 +77,6 @@ div#footer {
 	margin-left: 0;
 }
 #header .menu li a {
-	color: #525B60;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
 	-ms-transition: all 300ms ease-in-out;
@@ -94,7 +92,6 @@ div#footer {
  ========================================================================== */
 .mirko {
 	background: #F7F5F2;
-	color: #525b60;
 	text-shadow: 1px 1px 0 #ffffff;
 }
 .mirko .content {
@@ -112,7 +109,7 @@ div#footer {
 	text-decoration: underline;
 }
 .mirko section.about p {
-	font: 16px/32px 'Open Sans', sans-serif;
+	font: 14px/30px 'Open Sans', sans-serif;
 }
 .mirko section.photo {
 	float: right;
