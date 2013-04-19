@@ -15,12 +15,14 @@ body {
 
 h2 {
 	font: 24px/30px 'Droid Serif', serif;
+	color: #000;
 	margin: 20px 0;
 	font-weight: bold;
 }
 
 h6 {
 	font: 22px/26px 'Droid Serif', serif;
+	color: #000;
 	border-bottom: 1px dashed #aaa;
 	padding: 15px 0;
 	margin: 20px 0;
