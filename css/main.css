@@ -149,6 +149,14 @@ div#footer {
 article section {
 	margin: 40px 0;
 }
+article section.left {
+	width: 65px;
+	float: left;
+}
+article section.right {
+	width: 35px;
+	float: right;
+}
 article section p {
 	text-align: justify;
 	margin-bottom: 24px;
