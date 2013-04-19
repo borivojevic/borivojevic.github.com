@@ -150,11 +150,11 @@ article section {
 	margin: 40px 0;
 }
 article section.left {
-	width: 65px;
+	width: 65%;
 	float: left;
 }
 article section.right {
-	width: 35px;
+	width: 35%;
 	float: right;
 }
 article section p {
