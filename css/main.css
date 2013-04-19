@@ -159,13 +159,6 @@ article section p a {
 /* ==========================================================================
  FOOTER
  ========================================================================== */
-#footer p {
-
-}
-#footer ul {
-	list-style-type: none;
-	padding: 0px;
-}
 #footer ul li {
 	display: inline-block;
 	width: 40px;
@@ -175,8 +168,8 @@ article section p a {
 	font-size: 25px;
 }
 #footer p {
-	font: 12px 'Open Sans', sans-serif;
-	margin-bottom: 24px;
+	font: 15px 'Open Sans', sans-serif;
+	margin: 10px 0;
 }
 #footer p a {
 	color:inherit;
