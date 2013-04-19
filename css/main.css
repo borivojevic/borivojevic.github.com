@@ -150,8 +150,9 @@ article section {
 	margin: 40px 0;
 }
 article section.left {
-	width: 65%;
+	width: 60%;
 	float: left;
+	margin-right: 5%;
 }
 article section.right {
 	width: 35%;
