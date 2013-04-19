@@ -62,7 +62,7 @@ div#footer {
 }
 
 .content {
-	width: 680px;
+	width: 750px;
 	margin: 0 auto;
 }
 
@@ -131,11 +131,11 @@ div#footer {
 	width: 150px;
 }
 .mirko .avatar {
-	background-image: url(https://en.gravatar.com/userimage/43512809/6d9ede99a9496ecd2c9580eacaecb96f.png?size=150);
-	height: 150px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	border-radius: 100px;
+	background-image: url(https://en.gravatar.com/userimage/43512809/6d9ede99a9496ecd2c9580eacaecb96f.png?size=100);
+	height: 100px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	border-radius: 75px;
 }
 .mirko .thats-me {
 	background-image: url(../images/thats_me.png);
