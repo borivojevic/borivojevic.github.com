@@ -1,5 +1,5 @@
 @import url( 'https://fonts.googleapis.com/css?family=Copse|Droid+Serif:400,700|Open+Sans' );
-@import url( 'webfonts/ss-social.css' );
+@import url( '/webfonts/ss-social.css' );
 
 html {
 	height: 100%;
