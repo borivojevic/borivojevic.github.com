@@ -1,15 +1,15 @@
-@import url( 'https://fonts.googleapis.com/css?family=Copse|Droid+Serif:400,700|Open+Sans' );
+@import url( 'https://fonts.googleapis.com/css?family=Copse|Droid+Serif:400,700|Open+Sans:400,300,600,700,800' );
 @import url( '/webfonts/ss-social.css' );
 
 html {
 	height: 100%;
 }
 body {
-	font: 16px/32px 'Open Sans', sans-serif;
+	font: 16px/32px 'Open Sans', Helvetica, sans-serif;
+	font-weight: 100;
 	color: #444;
 	-webkit-font-smoothing: antialiased;
 	font-smooth: always;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -71,7 +71,7 @@ div#footer {
 }
 section p {
 	text-align: justify;
-	margin-bottom: 24px;
+	margin-bottom: 12px;
 }
 section p a {
 	font-weight: bold;
@@ -149,7 +149,7 @@ section.photo .thats-me {
 	font-size: 25px;
 }
 #footer p {
-	font: 15px 'Open Sans', sans-serif;
+	font-size: 15px;
 	margin: 10px 0;
 }
 
