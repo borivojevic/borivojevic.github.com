@@ -148,6 +148,7 @@ section.photo .thats-me {
 	text-align: center;
 }
 #footer .contact a {
+	display: inline-block;
 	color: #fff;
 	font-size: 40px;
 	-webkit-transition: all 300ms ease-in-out;
@@ -161,8 +162,8 @@ section.photo .thats-me {
 }
 
 #footer p {
-	font-size: 15px;
-	margin: 10px 0;
+	font-size: 12px;
+	margin: 0;
 }
 
 @media screen and ( max-device-width: 1279px ) {
