@@ -142,12 +142,12 @@ section.photo .thats-me {
 /* ==========================================================================
  FOOTER
  ========================================================================== */
-#footer span {
+#footer .contact {
 	display: inline-block;
 	width: 30%;
 	text-align: center;
 }
-#footer span a {
+#footer .contact a {
 	color: #fff;
 	font-size: 40px;
 	-webkit-transition: all 300ms ease-in-out;
@@ -156,8 +156,8 @@ section.photo .thats-me {
 	-o-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
 }
-#footer span a:hover {
-	color: #f00;
+#footer .contact a:hover {
+	color: #DB4733;
 }
 
 #footer p {
