@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Restorani Nis
+title: Blog
+subtitle: Restorani za naručivanje hrane u Nišu
 category: posts
 ---
 

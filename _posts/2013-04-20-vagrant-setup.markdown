@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Vagrant Setup
+title: Blog
+subtitle: Setup Vagrant Instance
 category: posts
 ---
 
