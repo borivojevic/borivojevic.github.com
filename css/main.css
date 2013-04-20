@@ -31,7 +31,7 @@ h6 {
 a {
 	color: inherit;
 	font-weight: bold;
-	text-decoration: underline;
+	text-decoration: none;
 }
 div#container {
 	min-height:100%;
@@ -74,6 +74,9 @@ article section p {
 	text-align: justify;
 	margin-bottom: 24px;
 }
+article section p a {
+	text-decoration: underline;
+}
 /* ==========================================================================
  HEADER
  ========================================================================== */
@@ -109,7 +112,7 @@ article section p {
 	color: #F00;
 }
 #header .menu li a{
-	text-decoration: none;
+
 }
 /* ==========================================================================
  About me
