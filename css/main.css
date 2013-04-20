@@ -13,17 +13,17 @@ body {
 	padding: 0;
 	height: 100%;
 }
-h2 {
-	font: 24px/30px 'Droid Serif', serif;
-	color: #000;
-	margin: 20px 0;
-	font-weight: bold;
-}
-h6 {
-	font: 22px/26px 'Droid Serif', serif;
+h1 {
+	font: 30px 'Droid Serif', serif;
 	color: #000;
 	border-bottom: 1px dashed #aaa;
 	padding: 15px 0;
+	margin: 20px 0;
+	font-weight: bold;
+}
+h2 {
+	font: 24px/30px 'Droid Serif', serif;
+	color: #000;
 	margin: 20px 0;
 	font-weight: bold;
 }
@@ -73,7 +73,7 @@ section p {
 	margin-bottom: 24px;
 }
 section p a {
-	font-weight: bold;
+	font-weight: 500;
 	text-decoration: underline;
 }
 section.photo {
