@@ -30,7 +30,6 @@ h6 {
 }
 a {
 	color: inherit;
-	font-weight: bold;
 	text-decoration: none;
 }
 div#container {
@@ -75,6 +74,7 @@ section p {
 	margin-bottom: 24px;
 }
 section p a {
+	font-weight: bold;
 	text-decoration: underline;
 }
 section.photo {
