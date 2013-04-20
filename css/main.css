@@ -70,7 +70,7 @@ div#footer {
 }
 section p {
 	text-align: justify;
-	margin-bottom: 12px;
+	margin-bottom: 24px;
 }
 section p a {
 	font-weight: bold;
@@ -79,7 +79,7 @@ section p a {
 section.photo {
 	float: left;
 	width: 150px;
-	margin: 40px 0 0 -180px;
+	margin: 85px 0 0 -180px;
 }
 section.photo .avatar {
 	background-image: url(https://en.gravatar.com/userimage/43512809/6d9ede99a9496ecd2c9580eacaecb96f.png?size=150);
@@ -135,6 +135,9 @@ section.photo .thats-me {
 }
 .mirko section.about b {
 	color: #DB4733;
+}
+.mirko section.about p {
+	margin-bottom: 12px;
 }
 /* ==========================================================================
  FOOTER
