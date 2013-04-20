@@ -1,3 +1,6 @@
+@import url( 'https://fonts.googleapis.com/css?family=Copse|Droid+Serif:400,700|Open+Sans' );
+@import url( 'webfonts/ss-social.css' );
+
 html {
 	height: 100%;
 }
@@ -172,4 +175,13 @@ article section p a {
 }
 #footer p a {
 	color:inherit;
+}
+
+@media screen and ( max-device-width: 767px ) {
+	.header {
+	    text-align: center;
+	}
+	.title {
+	  display: none;
+	}
 }
