@@ -117,15 +117,15 @@ article section p a {
 /* ==========================================================================
  About me
  ========================================================================== */
-.mirko {
+.mirko .content {
+	padding: 30px 0;
 	background: #F7F5F2;
 	text-shadow: 1px 1px 0 #ffffff;
 }
-.mirko .content {
-	padding: 30px 0;
-}
 .mirko section.about {
 	text-align: justify;
+	width: 600px;
+	float: left;
 }
 .mirko section.about b {
 	color: #DB4733;
@@ -140,7 +140,7 @@ article section p a {
 }
 .mirko section.photo {
 	float: right;
-	margin: 40px 0 0 20px;
+	margin: 40px;
 	width: 150px;
 }
 .mirko .avatar {
