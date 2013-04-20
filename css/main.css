@@ -206,10 +206,6 @@ section.photo .thats-me {
 	section.photo {
 		margin: 20px auto;
 	}
-	div#center {
-		margin-top: 60px;
-		padding-bottom:130px;
-	}
 	#footer .contact p {
 		display: none;
 	}
