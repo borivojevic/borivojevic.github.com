@@ -5,9 +5,6 @@ subtitle: Setup Vagrant Instance
 category: posts
 ---
 
-Setup Vagrant Instance
-=======================
-
 Requirements:
 ---------------
 - Download and install [Vagrant][]
