@@ -47,8 +47,8 @@ div#header {
 }
 
 div#center {
-	padding-bottom:140px;
-	padding-top: 40px;
+	margin-top: 60px;
+	padding-bottom:120px;
 }
 
 div#footer {
@@ -66,6 +66,17 @@ div#footer {
 .content {
 	width: 750px;
 	margin: 0 auto;
+}
+
+article section p {
+	text-align: justify;
+	margin-bottom: 24px;
+}
+
+article section p a {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 /* ==========================================================================
@@ -143,30 +154,7 @@ div#footer {
 	background-image: url(../images/thats_me.png);
 	height: 80px;
 }
-/* ==========================================================================
- Article
- ========================================================================== */
-article section {
-	margin: 40px 0;
-}
-article section.left {
-	width: 60%;
-	float: left;
-	margin-right: 5%;
-}
-article section.right {
-	width: 35%;
-	float: right;
-}
-article section p {
-	text-align: justify;
-	margin-bottom: 24px;
-}
-article section p a {
-	color: inherit;
-	font-weight: bold;
-	text-decoration: underline;
-}
+
 /* ==========================================================================
  FOOTER
  ========================================================================== */
