@@ -155,6 +155,12 @@ section.photo .thats-me {
 	margin: 10px 0;
 }
 
+@media screen and ( max-device-width: 1279px ) {
+	.mirko .photo {
+		display: none;
+	}
+}
+
 @media screen and ( max-device-width: 767px ) {
 	.header {
 	    text-align: center;
