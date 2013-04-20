@@ -2,8 +2,12 @@
 exclude:  [ Gemfile, Gemfile.lock, Procfile, vendor, gems]
 
 # Jekyll settings
-markdown:   rdiscount
-auto:       true
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+auto: true
+rdiscount:
+  extensions: [smart]
 
 # Site settings
 sitename: Mirko Borivojevic
