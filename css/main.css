@@ -64,6 +64,12 @@ div#footer {
 	position:absolute;
 	bottom:0;
 }
+div.clear {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+}
 .content {
 	width: 750px;
 	margin: 0 auto;
@@ -187,6 +193,12 @@ section.photo .thats-me {
 	}
 	#header .menu {
 		float: none;
+	}
+	div.mirko {
+		padding: 0px;
+	}
+	div.mirko .content {
+	    padding: 0px;
 	}
 	section.about {
 		float: none;
