@@ -124,6 +124,7 @@ article section p {
 .mirko section.photo {
 	float: right;
 	width: 150px;
+	margin-top: 40px;
 }
 .mirko .avatar {
 	background-image: url(https://en.gravatar.com/userimage/43512809/6d9ede99a9496ecd2c9580eacaecb96f.png?size=150);
