@@ -67,7 +67,7 @@ div#footer {
 	width: 750px;
 	margin: 0 auto;
 }
-.center.content {
+#center .content {
 	padding: 20px 0;
 }
 article section p {
