@@ -5,7 +5,7 @@ html {
 	height: 100%;
 }
 body {
-	font: 14px/30px 'Open Sans', sans-serif;
+	font: 16px/32px 'Open Sans', sans-serif;
 	color: #444;
 	-webkit-font-smoothing: antialiased;
 	font-smooth: always;
@@ -82,6 +82,17 @@ section.photo {
 	width: 150px;
 	margin-top: 40px;
 }
+section.photo .avatar {
+	background-image: url(https://en.gravatar.com/userimage/43512809/6d9ede99a9496ecd2c9580eacaecb96f.png?size=150);
+	height: 150px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+section.photo .thats-me {
+	background-image: url(../images/thats_me.png);
+	height: 80px;
+}
 /* ==========================================================================
  HEADER
  ========================================================================== */
@@ -125,17 +136,6 @@ section.photo {
 }
 .mirko section.about b {
 	color: #DB4733;
-}
-.mirko .avatar {
-	background-image: url(https://en.gravatar.com/userimage/43512809/6d9ede99a9496ecd2c9580eacaecb96f.png?size=150);
-	height: 150px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	border-radius: 100px;
-}
-.mirko .thats-me {
-	background-image: url(../images/thats_me.png);
-	height: 80px;
 }
 /* ==========================================================================
  FOOTER
