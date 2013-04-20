@@ -79,22 +79,6 @@ section p a {
 	font-weight: 500;
 	text-decoration: underline;
 }
-section.photo {
-	float: left;
-	width: 150px;
-	margin: 85px 0 0 -180px;
-}
-section.photo .avatar {
-	background-image: url(https://en.gravatar.com/userimage/43512809/6d9ede99a9496ecd2c9580eacaecb96f.png?size=150);
-	height: 150px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	border-radius: 100px;
-}
-section.photo .thats-me {
-	background-image: url(../images/thats_me.png);
-	height: 80px;
-}
 /* ==========================================================================
  HEADER
  ========================================================================== */
@@ -139,6 +123,24 @@ section.photo .thats-me {
 .mirko section.about p {
 	margin-bottom: 12px;
 }
+section.about {
+	float: right;
+}
+section.photo {
+	width: 150px;
+	margin: 85px 0 0 -180px;
+}
+section.photo .avatar {
+	background-image: url(https://en.gravatar.com/userimage/43512809/6d9ede99a9496ecd2c9580eacaecb96f.png?size=150);
+	height: 150px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+section.photo .thats-me {
+	background-image: url(../images/thats_me.png);
+	height: 80px;
+}
 /* ==========================================================================
  FOOTER
  ========================================================================== */
@@ -173,10 +175,24 @@ section.photo .thats-me {
 }
 
 @media screen and ( max-device-width: 767px ) {
-	.header {
+	.content {
+		width: auto;
+	    margin: 0 auto;
+	    padding: 0 10px;
+	}
+	#header {
 	    text-align: center;
 	}
-	.title {
+	#header .title {
 	  display: none;
+	}
+	#header .menu {
+		float: none;
+	}
+	section.about {
+		float: none;
+	}
+	section.photo {
+		margin: 20px auto;
 	}
 }
