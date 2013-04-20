@@ -4,7 +4,6 @@
 html {
 	height: 100%;
 }
-
 body {
 	font: 14px/30px 'Open Sans', sans-serif;
 	color: #444;
@@ -15,14 +14,12 @@ body {
 	padding: 0;
 	height: 100%;
 }
-
 h2 {
 	font: 24px/30px 'Droid Serif', serif;
 	color: #000;
 	margin: 20px 0;
 	font-weight: bold;
 }
-
 h6 {
 	font: 22px/26px 'Droid Serif', serif;
 	color: #000;
@@ -31,12 +28,15 @@ h6 {
 	margin: 20px 0;
 	font-weight: bold;
 }
-
+a {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: underline;
+}
 div#container {
 	min-height:100%;
 	position:relative;
 }
-
 div#header {
 	background-color: white;
 	text-align: center;
@@ -48,12 +48,10 @@ div#header {
 	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
-
 div#center {
 	margin-top: 60px;
 	padding-bottom:120px;
 }
-
 div#footer {
 	font-size: 16px;
 	background: #363D42;
@@ -65,23 +63,14 @@ div#footer {
 	position:absolute;
 	bottom:0;
 }
-
 .content {
 	width: 750px;
 	margin: 0 auto;
 }
-
 article section p {
 	text-align: justify;
 	margin-bottom: 24px;
 }
-
-article section p a {
-	color: inherit;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
 /* ==========================================================================
  HEADER
  ========================================================================== */
@@ -120,30 +109,20 @@ article section p a {
 /* ==========================================================================
  About me
  ========================================================================== */
-.mirko.content {
+.mirko {
 	padding: 30px 0;
 	background: #F7F5F2;
-	text-shadow: 1px 1px 0 #ffffff;
 }
 .mirko section.about {
 	text-align: justify;
-	width: 600px;
+	width: 580px;
 	float: left;
 }
 .mirko section.about b {
 	color: #DB4733;
 }
-.mirko section.about a {
-	color: inherit;
-	font-weight: bold;
-	text-decoration: underline;
-}
-.mirko section.about p {
-	font: 14px/30px 'Open Sans', sans-serif;
-}
 .mirko section.photo {
 	float: right;
-	margin: 40px;
 	width: 150px;
 }
 .mirko .avatar {
@@ -157,7 +136,6 @@ article section p a {
 	background-image: url(../images/thats_me.png);
 	height: 80px;
 }
-
 /* ==========================================================================
  FOOTER
  ========================================================================== */
@@ -172,9 +150,6 @@ article section p a {
 #footer p {
 	font: 15px 'Open Sans', sans-serif;
 	margin: 10px 0;
-}
-#footer p a {
-	color:inherit;
 }
 
 @media screen and ( max-device-width: 767px ) {
