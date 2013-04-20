@@ -77,9 +77,9 @@ section p a {
 	text-decoration: underline;
 }
 section.photo {
-	float: right;
+	float: left;
 	width: 150px;
-	margin-top: 40px;
+	margin: 40px 0 0 -180px;
 }
 section.photo .avatar {
 	background-image: url(https://en.gravatar.com/userimage/43512809/6d9ede99a9496ecd2c9580eacaecb96f.png?size=150);
