@@ -77,6 +77,11 @@ article section p {
 article section p a {
 	text-decoration: underline;
 }
+article section.photo {
+	float: right;
+	width: 150px;
+	margin-top: 40px;
+}
 /* ==========================================================================
  HEADER
  ========================================================================== */
@@ -111,9 +116,6 @@ article section p a {
 #header .menu li a:hover{
 	color: #F00;
 }
-#header .menu li a{
-
-}
 /* ==========================================================================
  About me
  ========================================================================== */
@@ -123,16 +125,9 @@ article section p a {
 }
 .mirko section.about {
 	text-align: justify;
-	width: 580px;
-	float: left;
 }
 .mirko section.about b {
 	color: #DB4733;
-}
-.mirko section.photo {
-	float: right;
-	width: 150px;
-	margin-top: 40px;
 }
 .mirko .avatar {
 	background-image: url(https://en.gravatar.com/userimage/43512809/6d9ede99a9496ecd2c9580eacaecb96f.png?size=150);
