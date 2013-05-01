@@ -129,6 +129,16 @@ section p a {
 .mirko section.about p {
 	margin-bottom: 12px;
 }
+.mirko section.about a {
+	background: white;
+	display: inline-block;
+	padding: 0px 10px;
+	text-decoration: none;
+	font-weight: 600;
+}
+.mirko section.about a:hover {
+	background: gray;
+}
 section.about {
 	float: right;
 }
