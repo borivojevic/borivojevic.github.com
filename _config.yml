@@ -11,14 +11,8 @@ rdiscount:
 
 # Site settings
 sitename: Mirko Borivojevic
-tagline : Freelance Web Development
+tagline : Professional & Reliable Web Development
 email   : mirko.borivojevic@gmail.com
-skype   : mirkoborivojevic
-social  :
-  facebook  : borivojevic
-  github    : borivojevic
-  linkedin  : mirkoborivojevic
-  twitter   : borivojevic
 
 # Settings for Google Analytics: change UA-XXXXX-X to be your site's ID.
 analytics   :
