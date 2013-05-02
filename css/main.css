@@ -14,7 +14,7 @@ body {
 	height: 100%;
 }
 h1 {
-	font: 30px 'Droid Serif', serif;
+	font: 24px 'Droid Serif', serif;
 	color: #000;
 	border-bottom: 1px dashed #aaa;
 	padding: 15px 0;
@@ -158,14 +158,14 @@ section.photo .thats-me {
 	background-image: url(../images/thats_me.png);
 	height: 80px;
 }
-section a {
+section a.action {
 	background: #F7F5F2;
 	display: inline-block;
 	padding: 0px 10px;
 	text-decoration: none;
 	font-weight: 600;
 }
-section a:hover {
+section a.action:hover {
 	background: #444;
 	color: #fff;
 }
