@@ -29,7 +29,7 @@ h2 {
 }
 a {
 	color: inherit;
-	text-decoration: none;
+	text-decoration: underline;
 }
 b {
 	color: #DB4733;
@@ -115,9 +115,13 @@ section p a {
 	-ms-transition: all 300ms ease-in-out;
 	-o-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
+	text-decoration: none;
 }
 #header .menu li a:hover{
-	color: #F00;
+	color: #DB4733;
+}
+#header .menu li a.active {
+	color: #DB4733;
 }
 /* ==========================================================================
  About me
