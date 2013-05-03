@@ -177,6 +177,11 @@ section p.hint {
 	font-style: italic;
 	font-weight: 200;
 }
+div.toolbox {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+}
 /* ==========================================================================
  FOOTER
  ========================================================================== */
