@@ -4,30 +4,30 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="author" content=">Mirko Borivojevic" />
-    <title>{{ site.sitename }} - {{ site.tagline }}</title>
-    <meta name="description" content="{{ site.sitename }} - {{ site.tagline }}">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link href="/css/main.css" type="text/css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="author" content=">Mirko Borivojevic" />
+	<title>{{ site.sitename }} - {{ site.tagline }}</title>
+	<meta name="description" content="{{ site.sitename }} - {{ site.tagline }}">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" href="/css/reset.css">
+	<link href="/css/main.css" type="text/css" rel="stylesheet">
 </head>
-    <body>
-        <div id="container">
-            {% include header.html %}
+	<body>
+		<div id="container">
+			{% include header.html %}
 
-            <div id="center">
-                {{ content }}
-            </div>
+			<div id="center">
+				{{ content }}
+			</div>
 
-            {% include footer.html %}
-        </div>
+			{% include footer.html %}
+		</div>
 
-        <!-- LOAD SCRIPTS -->
-        <script src="/js/main.js"></script>
-        <script src="/js/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+		<!-- LOAD SCRIPTS -->
+		<script src="/js/main.js"></script>
+		<script src="/js/modernizr-2.6.1-respond-1.1.0.min.js"></script>
 
-        {% include analytics %}
-    </body>
+		{% include analytics %}
+	</body>
 </html>
