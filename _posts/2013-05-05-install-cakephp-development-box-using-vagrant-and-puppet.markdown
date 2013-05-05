@@ -1,11 +1,9 @@
 ---
 layout: post
 title: Blog
-subtitle: Install basic CakePHP development box using Vagrant and Puppet
+subtitle: Install CakePHP development box using Vagrant and Puppet
 category: posts
 ---
-
-## Overview
 
 Vagrant is a great tool to automate creating and configuring lightweight, reproducible, and portable development environments. If you are new to Vagrant you might want to take a look at [official documentation](http://docs.vagrantup.com/v2/why-vagrant/index.html) first to get a basic gist who is it for and why to use it.
 

@@ -7,9 +7,13 @@ layout: default
 		<a href="{{ page.url }}">{{ page.subtitle }}</a>
 	</h2>
 
-	<b>{{ page.date | date: "%B %e, %Y" }}</b>
+	<p>
+        <b>{{ page.date | date: "%B %e, %Y" }}</b>
+    </p>
 
 	{{ content }}
+
+    <p>&nbsp;</p>
 
 	{% include disqus.html %}
 </section>
