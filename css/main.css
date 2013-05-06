@@ -182,6 +182,9 @@ div.toolbox {
 	display: inline-block;
 	vertical-align: top;
 }
+.content.blog img {
+	margin-bottom: 24px;
+}
 /* ==========================================================================
  FOOTER
  ========================================================================== */
@@ -244,7 +247,14 @@ div.toolbox {
 	section.photo {
 		margin: 20px auto;
 	}
+	div.toolbox {
+		width: inherit;
+		display: block;
+	}
 	#footer .contact p {
+		display: none;
+	}
+	.content.blog img {
 		display: none;
 	}
 }
