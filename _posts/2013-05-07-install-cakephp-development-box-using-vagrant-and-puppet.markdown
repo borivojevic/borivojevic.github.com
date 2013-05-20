@@ -26,6 +26,7 @@ Vagrant is a great tool to automate creating and configuring lightweight, reprod
 - Open terminal and <code>cd</code> to working directory
 - Run <code>vagrant up</code> turn on virtual machine machine
 - Open web browser and point it to <code>dev.mirkoborivojevic.localhost:8888</code>
+- Open phpMyAdmin with <code>dev.mirkoborivojevic.localhost:8888/phpmyadmin</code>
 - Log in to vagrant box with <code>ssh vagrant@127.0.0.1 -p 2222</code>
 - Turn off virtual machine with <code>vagrant down</code>
 - Turn off and destroy virtual machine with <code>vagrant destroy</code>
@@ -51,6 +52,7 @@ Vagrant is a great tool to automate creating and configuring lightweight, reprod
     - PHP_CodeSniffer
     - CakePHP_CodeSniffer
 - mysql-server
+- phpMyAdmin
 - git-core
 - vim
 - curl
@@ -63,7 +65,6 @@ VirtualBox sometimes hangs on "Waiting for VM to boot. This can take a few minut
 ## TODO
 
 - Additional libraries
-    - phpmyadmin
     - cakephp
     - xdebug
 - Add PHP 5.4 support
