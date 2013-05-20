@@ -185,6 +185,19 @@ div.toolbox {
 .content.blog img {
 	margin-bottom: 24px;
 }
+section p.testimonial {
+	font-style: italic;
+}
+div#anthony-avatar {
+	background-image: url(/images/anthony.jpg);
+	height: 150px;
+	width: 150px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	margin: 0px 0 0 -180px;
+	float: left;
+}
 a.rss {
 	display: inline-block;
 	font-size: 25px;
@@ -234,6 +247,9 @@ a.rss:hover {
 	section.photo {
 		display: none;
 	}
+	div#anthony-avatar {
+		display: none;
+	}
 }
 
 @media screen and (max-device-width: 767px) {
@@ -270,6 +286,9 @@ a.rss:hover {
 		display: none;
 	}
 	.content.blog img {
+		display: none;
+	}
+	div#anthony-avatar {
 		display: none;
 	}
 }
