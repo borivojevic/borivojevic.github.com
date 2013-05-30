@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Blog
 subtitle: Install CakePHP development box using Vagrant and Puppet
+tagline: Install CakePHP development box using Vagrant and Puppet
 category: posts
 ---
 

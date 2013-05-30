@@ -24,6 +24,7 @@ pre.terminal code {
   background-color: #F7F5F2;
   padding: 15px 10px;
   box-shadow: inset 0 0 10px rgba(0,0,0,.05);
+  overflow: hidden;
 }
 .highlight pre {
   margin: 0;
@@ -33,7 +34,7 @@ pre.terminal code {
   float: left;
 }
 .highlight:hover {
-  overflow: auto;
+  overflow: auto!important;
 }
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #999988; font-style: italic } /* Comment */

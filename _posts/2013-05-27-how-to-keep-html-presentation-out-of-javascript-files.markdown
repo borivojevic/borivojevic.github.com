@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Blog
 subtitle: How to keep HTML presentation out of JavaScript files
+tagline: How to keep HTML presentation out of JavaScript files
 category: posts
 ---
 
 ## The Problem
 
-Imagine you're writting web application and you have to add more HTML content on page through JavaScript. E.G. you are fetching a bunch of comments from server through ajax call and you have to append them to comments section.
+Imagine you're writting web application and you have to generate and add more HTML content into page dynamically through JavaScript - e.g. you are fetching a bunch of comments from server through ajax call and you have to append them onto comments section.
 
-The easy way to do it would be to travese through comments in javascript and just append raw htlm trhough javascript like:
+The easy way to do it would be to travese through comments in JavaScript and just append raw blob of HTML like:
 
 {% highlight javascript %}
 $(comments).each(function(index, comment) {
