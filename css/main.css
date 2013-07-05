@@ -198,6 +198,16 @@ div#anthony-avatar {
 	margin: 0px 0 0 -180px;
 	float: left;
 }
+div#tom-avatar {
+	background-image: url(/images/tom.jpg);
+	height: 150px;
+	width: 150px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	margin: 0px 0 0 -180px;
+	float: left;
+}
 a.rss {
 	display: inline-block;
 	font-size: 25px;
