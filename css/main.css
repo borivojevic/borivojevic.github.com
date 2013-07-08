@@ -287,6 +287,9 @@ section.blog pre.terminal code {
 	div#anthony-avatar {
 		display: none;
 	}
+	div#tom-avatar {
+		display: none;
+	}
 }
 
 @media screen and (max-device-width: 767px) {
