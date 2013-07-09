@@ -1,6 +1,6 @@
 ---
 layout: post
-subtitle: Bash Keyboard Shortcuts
+subtitle: Blog
 tagline: Bash Keyboard Shortcuts
 category: posts
 ---
