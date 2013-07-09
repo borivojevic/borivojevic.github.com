@@ -5,7 +5,7 @@ subtitle: Bash Keyboard Shortcuts
 category: posts
 ---
 
-I just recently discovered bash has keyboard shortcuts to help you move arround and edit things faster. Here's the list of some of my favorites.
+I just recently discovered that bash has keyboard shortcuts to help you move around and edit things faster. Here's the list of some of my favorites.
 
 ## Keyboard Shortcuts
 
