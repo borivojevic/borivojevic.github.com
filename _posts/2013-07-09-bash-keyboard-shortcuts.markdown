@@ -1,9 +1,11 @@
 ---
 layout: post
-subtitle: Keyboard Shortcuts To Navigate Faster In Bash
-tagline: Keyboard Shortcuts To Navigate Faster In Bash
+subtitle: Bash Keyboard Shortcuts
+tagline: Bash Keyboard Shortcuts
 category: posts
 ---
+
+I just recently discovered bash has keyboard shortcuts to help you move arround and edit things faster. Here's the list of some of my favorites.
 
 ## Keyboard Shortcuts
 
@@ -28,3 +30,23 @@ category: posts
 - <code>Ctrl + _</code>: Undo the last bash action (e.g. a yank or kill)
 - <code>Ctrl + T</code>: Swap the last two characters before the cursor
 - <code>Meta + T</code>: Swap the last two words before the cursor
+
+The list goes on and if you want to know more take a look at [bash reference][]
+
+## Bonus Tip
+
+To be able to search through bash command history using up and down arrows add following script to your <code>~/.inputrc</code> file:
+
+{% highlight bash %}
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+set show-all-if-ambiguous on
+set completion-ignore-case on
+{% endhighlight %}
+
+Like [the single most useful thing in bash][] explains:
+
+> type "cd /" and press the up arrow and you'll search through everything in your history that starts with "cd /".
+
+[bash reference]: http://www.gnu.org/software/bash/manual/bashref.html#Command-Line-Editing
+[the single most useful thing in bash]: https://coderwall.com/p/oqtj8w
