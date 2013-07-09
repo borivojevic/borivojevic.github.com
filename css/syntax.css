@@ -1,5 +1,6 @@
 .highlight {
   overflow: hidden;
+  margin-bottom: 24px;
 }
 .highlight:hover {
   overflow: auto!important;
