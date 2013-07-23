@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Blog
 subtitle: New Website and Blog
+tagline: New Website and Blog
 category: posts
 ---
 
