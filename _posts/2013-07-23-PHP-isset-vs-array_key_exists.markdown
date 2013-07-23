@@ -29,7 +29,7 @@ Well, apparently isset() is a bit faster. According to [benchmark][] from top of
 
 Even with the slower performance array_key_exists() totaly wins the day for me and I'm committed never to use isset() again.
 
-It's supprising and it's humbling when you discover something new in language you're using for so many years. I decided to celebrate it and share this a-ha moment with world. Also, [enjoy my surprised face][] when I come to realization.
+It's supprising and it's humbling when you discover something new in language you're using for so many years. That's why I decided to celebrate it and share this a-ha moment in the form of a blog post. Also, [enjoy my surprised face][] when I come to realization.
 
 [Example #2]: http://php.net/manual/en/function.array-key-exists.php
 [benchmark]: http://ilia.ws/archives/247-Performance-Analysis-of-isset-vs-array_key_exists.html
