@@ -37,6 +37,7 @@ b {
 blockquote {
 	font-style: italic;
 	padding: 5px 40px;
+	margin-bottom: 24px;
 	line-height: 1.45;
 	border-left: 5px solid gray;
 }
