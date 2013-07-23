@@ -8,6 +8,7 @@ category: posts
 Take a look at following piece of code:
 
 {% highlight php %}
+<?php
 if (isset($apiResponseJsonArray['error'])) {
     throw new \Exception("API returned error: " . $apiResponseJsonArray['error']);
 }
