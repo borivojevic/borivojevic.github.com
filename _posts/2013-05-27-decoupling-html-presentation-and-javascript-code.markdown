@@ -3,6 +3,7 @@ layout: post
 subtitle: Decoupling HTML presentation and JavaScript code
 tagline: Decoupling HTML presentation and JavaScript code
 category: posts
+draft: true
 ---
 
 ## The Problem
