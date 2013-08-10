@@ -83,10 +83,10 @@ Add following code to UsersController::login action:
 {% highlight php %}
 <?php
 if ($this->request->is('post')) {
-	if ($this->GOVAuth->login()) {
-		$this->_setCookie($this->GOVAuth->user('id'));
+	if ($this->Auth->login()) {
+		$this->_setCookie($this->Auth->user('id'));
 	} else {
-		$this->GOVAuth->flash(__('Invalid username or password, try again'));
+		$this->Auth->flash(__('Invalid username or password, try again'));
 	}
 }
 {% endhighlight %}
