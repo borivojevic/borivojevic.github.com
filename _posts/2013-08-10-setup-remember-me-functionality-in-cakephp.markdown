@@ -122,5 +122,5 @@ To see all changes we made at one place take a look at [following changeset][] o
 [Blog Tutorial]: http://book.cakephp.org/2.0/en/tutorials-and-examples/blog/blog.html
 [Authenticate plugin]: https://github.com/ceeram/Authenticate
 [CookieAuthenticate.php]: https://github.com/ceeram/Authenticate/blame/master/Controller/Component/Auth/CookieAuthenticate.php
-[following changeset]: https://github.com/borivojevic/cakephp-remember-me-demo/commit/42657b69b5bf502165ac267f626b71f4cfbd1e89
+[following changeset]: https://github.com/borivojevic/cakephp-remember-me-demo/commit/e49de595d019530dd92d0e38ffd908b4d4de3815
 [demo application]: https://github.com/borivojevic/cakephp-remember-me-demo
