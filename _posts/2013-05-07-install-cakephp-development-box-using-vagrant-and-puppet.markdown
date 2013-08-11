@@ -16,7 +16,7 @@ Vagrant is a great tool to automate creating and configuring lightweight, reprod
 
 1. Make sure you've installed prerequisites
 2. Open terminal, <code>cd</code> to working directory and clone the project:
-    <pre class="terminal"><code>git clone git://github.com/borivojevic/cakephp-vagrant.git</code></pre>
+    <code>git clone git://github.com/borivojevic/cakephp-vagrant.git</code>
 3. Place application source code into cakephp-vagrant/webroot folder
 4. On the host machine, add a new line to your <code>hosts</code> file:
     <code>33.33.33.10 dev.mirkoborivojevic.localhost</code>
