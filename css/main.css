@@ -265,29 +265,47 @@ a.rss:hover {
 /* ==========================================================================
  BLOG
  ========================================================================== */
-section.blog pre {
-	border: 1px solid #ddd;
-	background-color: #eef;
-	padding: 0 .4em;
-	display: inline-table;
+
+/* Code Highlighting */
+
+
+pre, code {
+	white-space: pre;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+	font-size: 14px;
+	padding: 0 .5em;
+	line-height: 1.8em;
+}
+
+@media (min-width: 768px) {
+	pre, code {
+		font-size: 16px;
+	}
+}
+
+.highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code {
+	background: #333;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 10px rgba(0,0,0,.3),
+		0 1px 0 rgba(255,255,255,.1),
+		0 -1px 0 rgba(0,0,0,.5);
+}
+
+.note code {
+	background-color: rgba(0,0,0,0.2);
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+	font-size: 0.8em;
+}
+
+.highlight {
+	padding: 10px 0;
 	width: 100%;
-}
-section.blog code {
-	border: 1px solid #ddd;
-	background-color: #eef;
-	font-size: 85%;
-	padding: 0 .2em;
-}
-section.blog pre code {
-	border: none;
-}
-section.blog pre.terminal {
-	border: 1px solid black;
-	background-color: #333;
-	color: white;
-}
-section.blog pre.terminal code {
-	background-color: #333;
+	overflow: auto;
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1279px) {
