@@ -82,11 +82,18 @@ Add following code to UsersController::login action:
 
 {% highlight php %}
 <?php
-if ($this->request->is('post')) {
-	if ($this->Auth->login()) {
-		$this->_setCookie($this->Auth->user('id'));
-	} else {
-		$this->Auth->flash(__('Invalid username or password, try again'));
+public function login() {
+	if ($this->request->is('post')) {
+		if ($this->Auth->login()) {
+			$this->_setCookie($this->Auth->user('id'));
+			$this->redirect($this->Auth->redirect());
+		} else {
+			$this->Session->setFlash(__('Invalid username or password, try again'));
+		}
+	}
+
+	if ($this->Auth->loggedIn() || $this->Auth->login()) {
+		return $this->redirect($this->Auth->redirectUrl());
 	}
 }
 {% endhighlight %}
