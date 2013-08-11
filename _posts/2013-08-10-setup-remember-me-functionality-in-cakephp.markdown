@@ -91,7 +91,6 @@ public function login() {
 			$this->Session->setFlash(__('Invalid username or password, try again'));
 		}
 	}
-
 	if ($this->Auth->loggedIn() || $this->Auth->login()) {
 		return $this->redirect($this->Auth->redirectUrl());
 	}
