@@ -267,8 +267,6 @@ a.rss:hover {
  ========================================================================== */
 
 /* Code Highlighting */
-
-
 pre, code {
 	white-space: pre;
 	display: inline-block;
@@ -306,6 +304,10 @@ pre, code {
 	margin-bottom: 24px;
 	width: 100%;
 	overflow: auto;
+}
+
+b.date {
+	float: right;
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1279px) {
@@ -360,6 +362,9 @@ pre, code {
 		display: none;
 	}
 	div#tom-avatar {
+		display: none;
+	}
+	b.date {
 		display: none;
 	}
 }
