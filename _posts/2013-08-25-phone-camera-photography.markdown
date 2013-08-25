@@ -5,7 +5,7 @@ tagline: Phone camera photography
 category: posts
 ---
 
-Photography inspires me. I enjoy looking at professional photos and I enjoy taking photos as well. However I'm not as near as good as I would like to be.
+Photography inspires me. I enjoy looking at professional photos and I enjoy taking photos as well. However I'm not as near good as I would like to be.
 
 I was considering to get a proper DSLR camera for some time, but let's face it, spending a lot of money on professional equipment ain't gonna make me a photographer, right? Any modern phone camera can capture respectable photos as well.
 
