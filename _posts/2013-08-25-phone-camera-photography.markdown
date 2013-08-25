@@ -5,11 +5,11 @@ tagline: Phone camera photography
 category: posts
 ---
 
-I am so inspired by the world of photography - I enjoy watching photos and I enjoy taking them as well. However I'm not a photographer.
+Photography inspires me. I enjoy looking at professional photos and I enjoy taking photos as well. However I'm not as near as good as I would like to be.
 
-I've been looking to get a proper DSLR for some time, but let's face it, spending a lot of money will not make me a photographer, right? Any modern phone camera can capture respectable quality photos anyway.
+I was considering to get a proper DSLR camera for some time, but let's face it, spending a lot of money on professional equipment ain't gonna make me a photographer, right? Any modern phone camera can capture respectable photos as well.
 
-Instead, I stick to my Nexus phone camera and capture my precious moments with a bit of Instagram magic. A huge plus is that I have it with me at almost all times.
+That's why I stick to my Nexus phone camera and capture my precious moments with a bit of Instagram magic. A huge plus is I have my phone with me at all times and it's so convenient to take it anywhere.
 
 So I keep reminding myself:
 > The best camera is the one you have with you
