@@ -3,7 +3,6 @@ layout: post
 subtitle: Phone camera photography
 tagline: Phone camera photography
 category: posts
-draft: true
 ---
 
 I am so inspired by the world of photography - I enjoy watching photos and I enjoy taking them as well. However I'm not a photographer.
@@ -22,3 +21,5 @@ So I keep reminding myself:
 <iframe src="//instagram.com/p/Sp-SGwrj2G/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
 
 <iframe src="//instagram.com/p/dclmpqrjwH/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+
+<iframe src="//instagram.com/p/cCW_dcrjyx/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
