@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Blog
 subtitle: PHP wrapper library for RescueTime API
+tagline: PHP wrapper library for RescueTime API
 category: posts
 ---
 

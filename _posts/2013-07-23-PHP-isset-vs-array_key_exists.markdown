@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Blog
 subtitle: PHP isset() vs array_key_exists()
+tagline: PHP isset() vs array_key_exists()
 category: posts
 ---
 
