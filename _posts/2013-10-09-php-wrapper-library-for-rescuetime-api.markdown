@@ -5,9 +5,7 @@ tagline: PHP wrapper library for RescueTime API
 category: posts
 ---
 
-[RescueTime][] is one of my favorite productivity tools that helps me track how I spend my time as a freelancer and and optimize it to be more productive. I've been using it for couple of months and I fell in love with it.
-
-It's a free product so I wanted to show some love back by open-sourcing PHP wrapper library for their API.
+[RescueTime][] is one of my favorite productivity tools that helps me track how I spend my time as a freelancer and and optimize it to be more productive. I've been using it for couple of months and I fell in love with it. It's a free product so I wanted to show some love back by open-sourcing PHP wrapper library for their API.
 
 At this point RescueTime API provides single endpoint to fetch detailed and complicated data. As a developer you'll have to understand basic RescueTime concepts like productivity , categories or activities. The data is read-only through the API.
 
@@ -15,7 +13,7 @@ The source code is available on Github at [borivojevic/rescuetime-api-php][]
 
 ## Installation
 
-Recommend way to install this package is with [Composer][]. Add `borivojevic/rescuetime-api-php` to your composer.json file.
+Recommend way to install this package is with [Composer][]. Add following line to your composer.json file.
 
 {% highlight json %}
 {
