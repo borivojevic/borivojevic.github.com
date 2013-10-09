@@ -13,7 +13,7 @@ The source code is available on Github at [borivojevic/rescuetime-api-php][]
 
 ## Installation
 
-Recommend way to install this package is with [Composer][]. Add following line to your composer.json file:
+Recommend way to install this package is through [Composer][]. Add following line to your composer.json file:
 
 {% highlight json %}
 {
