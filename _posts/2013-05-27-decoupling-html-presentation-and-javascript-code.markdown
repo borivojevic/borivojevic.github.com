@@ -6,6 +6,10 @@ category: posts
 draft: true
 ---
 
+Todo:
+ - Clear separation of consears
+ - Maintainability (you don't have to search js files when there's a layout problem)
+
 ## The Problem
 
 We have all been there sometime. You're doing light front-end programming and you have to generate and inject HTML code dinamically to the page through javascript. You don't want to use robust framework like Backbone or Ember as your requrements are light - e.g. dinamically adding form fields or updating chat history in comments application.

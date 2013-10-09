@@ -15,9 +15,9 @@ The source code is available on Github at [borivojevic/rescuetime-api-php][]
 
 ## Installation
 
-Recommend way to install this package with [Composer][]. Add borivojevic/rescuetime-api-php to your composer.json file.
+Recommend way to install this package is with [Composer][]. Add `borivojevic/rescuetime-api-php` to your composer.json file.
 
-``` json
+```json
 {
     "require": {
         "borivojevic/rescuetime": "1.*"
@@ -47,7 +47,7 @@ require 'vendor/autoload.php';
 
 The main entry point of the library is the `RescueTime\Client` class. API methods require to be signed with valid `api_key` parameter which you have to provide as a first argument of the constructor. You can obtain RescueTime API key on [API Key Management][] console page.
 
-``` php
+```php
 <?php
 $Client = new \RescueTime\Client($apiKey);
 
