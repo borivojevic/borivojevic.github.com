@@ -27,19 +27,20 @@ Recommend way to install this package is with [Composer][]. Add `borivojevic/res
 
 To install composer run:
 
-{% highlight json %}
+{% highlight bash %}
 curl -s http://getcomposer.org/installer | php
 {% endhighlight %}
 
 To install composer dependences run:
 
-{% highlight json %}
+{% highlight bash %}
 php composer.phar install
 {% endhighlight %}
 
 You can autoload all dependencies by adding this to your code:
 
-{% highlight json %}
+{% highlight php %}
+<?php
 require 'vendor/autoload.php';
 {% endhighlight %}
 
@@ -95,6 +96,7 @@ $activities = $this->Client->getActivities(
 You can build more complex queries and filter down the data by providing other query parameters:
 
 {% highlight php %}
+<?php
 $this->Client->getActivities(
     <perspective>,
     <resolution_time>,
@@ -116,19 +118,18 @@ Each query parameter is explained in more details in official [HTTP Query Interf
 For a working exaple of application that uses rescuetime-api-php library take a look at [borivojevic/rescuetime-statusboard][]. It is a simple web application build with [Silex][] that converts the data returned from API into the format that can be read by [Status Board][] iPad app.
 
 Application provides a dashboard interface with couple key metrics:
-
 - Summary panel
 - Productivity By Day Panel
 - Top Categories Panel
 - Top Activities Panel
 
-![Productivity By Day Panel](http://f.cl.ly/items/1p0n00010s052H3T0B1e/statusboard-productivity-by-day.jpg)
+<center><img src="http://f.cl.ly/items/1p0n00010s052H3T0B1e/statusboard-productivity-by-day.jpg" alt="Productivity By Day Panel" /></center>
 
 It's easy to install it for your own purposes but if you relly want to integrate your RescueTime account with Status Board it's even more convenient to enable it in [RescueTime directly](https://www.rescuetime.com/setuppanicstatusboard).
 
 ## I'd like to hear from you
 
-Thank you for reading all the way down here and I really hope you got some value from it. If you have any questions or suggestions feel free to write me at <a href="mailto:mirko@mirkoborivojevic.com">mirko@mirkoborivojevic.com</a> or to comment below. Also, patches and pull requests are always welcome.
+Thank you for reading all the way down here and I really hope you got some value from it. If you have any questions or suggestions feel free to write me at <a href="mailto:mirko@mirkoborivojevic.com">mirko@mirkoborivojevic.com</a> or to leave a comment below. Also, patches and pull requests are always welcome.
 
 [RescueTime]: https://www.rescuetime.com
 [borivojevic/rescuetime-api-php]: https://github.com/borivojevic/rescuetime-api-php
