@@ -118,6 +118,7 @@ Each query parameter is explained in more details in official [HTTP Query Interf
 For a working exaple of application that uses rescuetime-api-php library take a look at [borivojevic/rescuetime-statusboard][]. It is a simple web application build with [Silex][] that converts the data returned from API into the format that can be read by [Status Board][] iPad app.
 
 Application provides a dashboard interface with couple key metrics:
+
 - Summary panel
 - Productivity By Day Panel
 - Top Categories Panel
