@@ -11,7 +11,7 @@ It's a free product so I wanted to show some love back by open-sourcing PHP wrap
 
 At this point RescueTime API provides single endpoint to fetch detailed and complicated data. As a developer you'll have to understand basic RescueTime concepts like productivity , categories or activities. The data is read-only through the API.
 
-The source code is available on Github at [rescuetime-api-php][]
+The source code is available on Github at [borivojevic/rescuetime-api-php][]
 
 ## Installation
 
@@ -131,7 +131,7 @@ It's easy to install it for your own purposes but if you relly want to integrate
 Thank you for reading all the way down here and I really hope you got some value from it. If you have any questions or suggestions feel free to write me at <a href="mailto:mirko@mirkoborivojevic.com">mirko@mirkoborivojevic.com</a> or to comment below. Also, patches and pull requests are always welcome.
 
 [RescueTime]: https://www.rescuetime.com
-[rescuetime-api-php]: https://github.com/borivojevic/rescuetime-api-php
+[borivojevic/rescuetime-api-php]: https://github.com/borivojevic/rescuetime-api-php
 [Composer]: http://getcomposer.org/
 [API Key Management]: https://www.rescuetime.com/anapi/manage
 [HTTP Query Interface documentation]: https://www.rescuetime.com/anapi/setup/documentation#http
