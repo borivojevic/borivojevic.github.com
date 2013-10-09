@@ -17,37 +17,37 @@ The source code is available on Github at [borivojevic/rescuetime-api-php][]
 
 Recommend way to install this package is with [Composer][]. Add `borivojevic/rescuetime-api-php` to your composer.json file.
 
-```json
+{% highlight json %}
 {
     "require": {
         "borivojevic/rescuetime": "1.*"
     }
 }
-```
+{% endhighlight %}
 
 To install composer run:
 
-```
+{% highlight json %}
 curl -s http://getcomposer.org/installer | php
-```
+{% endhighlight %}
 
 To install composer dependences run:
 
-```
+{% highlight json %}
 php composer.phar install
-```
+{% endhighlight %}
 
 You can autoload all dependencies by adding this to your code:
 
-```
+{% highlight json %}
 require 'vendor/autoload.php';
-```
+{% endhighlight %}
 
 ## Usage
 
 The main entry point of the library is the `RescueTime\Client` class. API methods require to be signed with valid `api_key` parameter which you have to provide as a first argument of the constructor. You can obtain RescueTime API key on [API Key Management][] console page.
 
-```php
+{% highlight php %}
 <?php
 $Client = new \RescueTime\Client($apiKey);
 
@@ -90,11 +90,11 @@ $activities = $this->Client->getActivities(
     new \DateTime("today"),
     "category"
 );
-```
+{% endhighlight %}
 
 You can build more complex queries and filter down the data by providing other query parameters:
 
-``` php
+{% highlight php %}
 $this->Client->getActivities(
     <perspective>,
     <resolution_time>,
@@ -107,7 +107,7 @@ $this->Client->getActivities(
     <restrict_thing>,
     <restrict_thingy>
 );
-```
+{% endhighlight %}
 
 Each query parameter is explained in more details in official [HTTP Query Interface documentation][].
 
