@@ -44,7 +44,7 @@ $this->get("event_dispatcher")->dispatch("security.interactive_login", $event);
 <?php
 $user = $this->User->findByUsername($username);
 $this->Auth->login($user);
-{% endhighligh %}
+{% endhighlight %}
 
 ## References
 * [How to login a user programatically in Symfony2](http://hasin.me/2013/10/27/how-to-login-a-user-programatically-in-symfony2/)
