@@ -6,7 +6,7 @@ category: posts
 draft: true
 ---
 
-> Or how I learned to stop worrying and love convention over configuration.
+## Or how I learned to stop worrying and love convention over configuration.
 
 Today I stumbled on tutorial about how to programatically login user in Symfony2 and was surprised how many setup steps it takes comparing to what would I usually do in CakePHP.
 
@@ -48,5 +48,5 @@ $this->Auth->login($user);
 
 ## References
 * [How to login a user programatically in Symfony2](http://hasin.me/2013/10/27/how-to-login-a-user-programatically-in-symfony2/)
-* StackOverflow [How to programmatically login/authenticate a user?](http://stackoverflow.com/a/9550356)
+* [How to programmatically login/authenticate a user?](http://stackoverflow.com/a/9550356)
 * [CakePHP Cookbook](http://book.cakephp.org/2.0/en/core-libraries/components/authentication.html#manually-logging-users-in)
