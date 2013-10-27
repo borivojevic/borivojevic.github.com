@@ -16,7 +16,7 @@ I'm certainly not a Symfony2 expert so if I made a mistake please share it in co
 
 Peace ☮
 
-## Symfony2 primer:
+## Symfony2 example
 
 {% highlight php %}
 <?php
@@ -38,7 +38,7 @@ $event = new InteractiveLoginEvent($request, $token);
 $this->get("event_dispatcher")->dispatch("security.interactive_login", $event);
 {% endhighlight %}
 
-## CakePHP primer:
+## CakePHP example
 
 {% highlight php %}
 <?php
