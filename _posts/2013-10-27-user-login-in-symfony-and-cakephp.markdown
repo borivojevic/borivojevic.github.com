@@ -40,7 +40,7 @@ $user = $this->User->findByUsername($username);
 $this->Auth->login($user);
 {% endhighlight %}
 
-My intention here was not to offend anyone or to start another PHP framework flame war but to share the power of 'convention over configuration' design approach that powers CakePHP framework, which I greatly enjoy in my everyday work.
+My intention here was not to offend anyone or to start another PHP framework flame war but to share the power of 'convention over configuration' design approach that powers CakePHP framework.
 
 I'm certainly not a Symfony2 expert so if I made a mistake please share it in comments and let us all learn from it.
 
