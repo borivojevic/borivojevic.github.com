@@ -8,7 +8,7 @@ draft: true
 
 ## Or how I learned to stop worrying and love convention over configuration.
 
-Today I stumbled on tutorial about how to programatically login user in Symfony2 and was surprised how many setup steps it takes comparing to what would I usually do in CakePHP.
+Today I stumbled on tutorial describing how to programatically login user in Symfony2. I was surprised how many preparation steps does it take to do the simple thing that I'd otherwise accomplish in two lines of CakePHP.
 
 My intention here is not to offend anyone or to start another PHP framework flame war but to share the power of 'convention over configuration' design approach that powers CakePHP framework, which I greatly enjoy in my everyday work.
 
