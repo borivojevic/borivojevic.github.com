@@ -8,7 +8,7 @@ draft: true
 
 ## Or how I learned to stop worrying and love convention over configuration.
 
-Today I stumbled on tutorial describing how to programatically login user in Symfony2. I was surprised how many preparation steps does it take to do the simple thing that I'd otherwise accomplish in two lines of CakePHP.
+Today I stumbled on tutorial describing how to programatically login user in Symfony2. I was surprised how many preparation steps does it take to do simple thing that I'd otherwise accomplish in two lines of CakePHP.
 
 ## Symfony2 example
 
