@@ -10,7 +10,7 @@ draft: true
 
 Today I stumbled on tutorial about how to programatically login user in Symfony2 and was surprised how many setup steps it takes comparing to what would I usually do in CakePHP.
 
-My intention was not to offend anyone or to start another PHP framework flame war but to share the power of 'convention over configuration' design approach that powers CakePHP framework, which I greatly enjoy in my everyday work.
+My intention here is not to offend anyone or to start another PHP framework flame war but to share the power of 'convention over configuration' design approach that powers CakePHP framework, which I greatly enjoy in my everyday work.
 
 I'm certainly not a Symfony2 expert so if I made a mistake please share it in comments and let us all learn from it.
 
