@@ -10,12 +10,6 @@ draft: true
 
 Today I stumbled on tutorial describing how to programatically login user in Symfony2. I was surprised how many preparation steps does it take to do the simple thing that I'd otherwise accomplish in two lines of CakePHP.
 
-My intention here is not to offend anyone or to start another PHP framework flame war but to share the power of 'convention over configuration' design approach that powers CakePHP framework, which I greatly enjoy in my everyday work.
-
-I'm certainly not a Symfony2 expert so if I made a mistake please share it in comments and let us all learn from it.
-
-Peace ☮
-
 ## Symfony2 example
 
 {% highlight php %}
@@ -45,6 +39,12 @@ $this->get("event_dispatcher")->dispatch("security.interactive_login", $event);
 $user = $this->User->findByUsername($username);
 $this->Auth->login($user);
 {% endhighlight %}
+
+My intention here was not to offend anyone or to start another PHP framework flame war but to share the power of 'convention over configuration' design approach that powers CakePHP framework, which I greatly enjoy in my everyday work.
+
+I'm certainly not a Symfony2 expert so if I made a mistake please share it in comments and let us all learn from it.
+
+Peace ☮
 
 ## References
 * [How to login a user programatically in Symfony2](http://hasin.me/2013/10/27/how-to-login-a-user-programatically-in-symfony2/)
