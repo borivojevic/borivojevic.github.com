@@ -3,7 +3,6 @@ layout: post
 subtitle: How to programmatically login user in Symfony2 and CakePHP
 tagline: How to programmatically login user in Symfony2 and CakePHP
 category: posts
-draft: true
 ---
 
 ## Or how I learned to stop worrying and love convention over configuration.
