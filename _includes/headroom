@@ -1,0 +1,13 @@
+<script type="text/javascript">
+var header = document.querySelector("header");
+var headroom = new Headroom(header, {
+	"tolerance": 5,
+	"offset": 486,
+	"classes": {
+		"initial": "animated",
+		"pinned": "slideInDown",
+		"unpinned": "slideOutUp"
+	}
+});
+headroom.init();
+</script>

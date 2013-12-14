@@ -48,7 +48,7 @@ div#container {
 	min-height:100%;
 	position:relative;
 }
-div#header {
+header {
 	background-color: white;
 	text-align: center;
 	width: 100%;
@@ -98,28 +98,28 @@ section p a {
 /* ==========================================================================
  HEADER
  ========================================================================== */
-#header .title {
+header .title {
 	float: left;
 	font: 32px/32px 'Copse', serif;
 	font-weight: bold;
 	margin: 0px;
 }
-#header .menu {
+header .menu {
 	float: right;
 	font-size: 16px;
 	margin: 0px;
 	padding: 5px 0;
 }
-#header .menu li {
+header .menu li {
 	display: inline-block;
 	text-align: center;
 	list-style-type: none;
 	margin-left: 30px;
 }
-#header .menu li:first-child {
+header .menu li:first-child {
 	margin-left: 0;
 }
-#header .menu li a {
+header .menu li a {
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
 	-ms-transition: all 300ms ease-in-out;
@@ -127,10 +127,10 @@ section p a {
 	transition: all 300ms ease-in-out;
 	text-decoration: none;
 }
-#header .menu li a:hover{
+header .menu li a:hover{
 	color: #DB4733;
 }
-#header .menu li a.active {
+header .menu li a.active {
 	color: #DB4733;
 }
 /* ==========================================================================
@@ -327,13 +327,13 @@ b.date {
 		width: auto;
 		margin: 0 20px;
 	}
-	#header {
+	header {
 		text-align: center;
 	}
-	#header .title {
+	header .title {
 	  display: none;
 	}
-	#header .menu {
+	header .menu {
 		float: none;
 	}
 	div.mirko {
